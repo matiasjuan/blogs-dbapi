@@ -29,3 +29,10 @@ CREATE TABLE `basketProduct` (
 PRIMARY KEY (`productId`,`basketId`)
 );
 
+INSERT INTO `accounts` VALUES (1,'Matias','Juan','mymail@mail.com'),(2,'John','Doe','jdoe@mail.com');
+
+INSERT INTO `product` VALUES (1,'Mac Book Pro 15 2010',1500),(2,'Mac Book Pro 13 2012',1300),(3,'Apple TV 2013',300),(4,'Mac Book Air 2011',1500),(5,'Mouse 123',20),(6,'IPhone 5 16GB unlocked',600);
+
+INSERT INTO `basket` VALUES (1,'1','2013-01-01 00:00:00','2013-01-01 00:00:00'),(2,'2','2012-05-19 00:00:00','2012-05-25 00:00:00');
+
+INSERT INTO `basketProduct` VALUES (2,1,'2'),(1,2,'1'),(1,4,'2'),(2,5,'1');
